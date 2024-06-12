@@ -78,5 +78,7 @@ exIcon.addEventListener("click", () => {
 });
 
 amountEl.addEventListener("keyup", () => {
+   //If amountEl is an input field where a user enters an amount of money,
+  // each time the user types something (and releases a key), the exchange rate is recalculated and displayed dynamically based on the current input value.
   getExchangeRate();
 });
